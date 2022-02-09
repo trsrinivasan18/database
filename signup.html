@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        .wrapper {
+            position: relative;
+            height: 100%;
+            width: 400px;
+            border: 2px solid black;
+            margin: 200px auto;
+            z-index: 1;
+        }
+        
+        .main {
+            position: absolute;
+            height: 400px;
+            width: 500px;
+            border: 2px solid black;
+            margin: 0px 400px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <form name="login" action="bc.php" method="POST">
+        <div class="main"></div>
+        <div class="wrapper">
+            <h4>SignUp</h4>
+            <div class="input_data">
+
+                <label for="">Username</label> <br>
+                <input type="text" name="uname">
+            </div>
+            <div class="input_data">
+
+                <label for="">Email</label> <br>
+                <input type="text" name="email">
+            </div>
+            <div class="input_data">
+
+                <label for="">Phonenumber</label> <br>
+                <input type="number" name="phno">
+            </div>
+            <div class="input_data">
+
+
+                <label for="">Password</label><br>
+                <input type="text" name="passwd">
+            </div>
+            <div class="input_data">
+
+
+                <label for="">Confirm password</label><br>
+                <input type="text" name="conpasswd">
+            </div>
+            <div class="input_data">
+
+
+                <label for="">Loacation</label><br>
+                <input type="text" name="location">
+            </div>
+            <div class="btn">
+                <input type="submit" name="" value="SIGN UP">
+            </div>
+        </div>
+
+
+    </form>
+    </div>
+
+</body>
+
+</html>
