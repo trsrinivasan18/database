@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!---Icon -->
+
+    <link rel="icon" href="booking_club.jpg">
+
+
+
+    <!---Bootstrap links-->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!--Google font link-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Fleur+De+Leah&family=Questrial&family=Qwitcher+Grypen:wght@700&family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
+
+    <!---Font awerome link-->
+
+    <script src="https://kit.fontawesome.com/979e9d2cac.js" crossorigin="anonymous"></script>
+
+
+    <!--Css link-->
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>BOOKING CLUB</title>
+
+</head>
+
+<body>
+
+    <!--Preload start-->
+
+    <div class="preload">
+        <div class="load">
+            <div></div>
+        </div>
+        <div id="load_content"> Booking Club
+        </div>
+    </div>
+
+    <!--Preload end-->
+
+
+    <!--navbar and slider bg color start--->
+
+    <div class="back"></div>
+
+    <!--navbar and slider bg color start--->
+
+    <!---navbar start-->
+
+    <div class="navbar_container">
+        <div class="nav_logo">
+            <img src="nav_logo-removebg-preview.png" alt="">
+
+        </div>
+        <div class="nav_label">
+            <label for="">Booking Club</label>
+
+        </div>
+        <div class="main" onclick="openn()">
+            &#9776;</div>
+        <div class="navbar">
+            <ul id="nav_items">
+                <li><a id="ac" class="active" href="index.html">Home</a> </li>
+                <li><a id="ac" href="#aboutus">About</a> </li>
+                <li><a id="ac" href="login.html">login</a> </li>
+                <li><a id="ac" href="signup.html">Signup</a> </li>
+                <li><a id="nav_icon" href="search.html"><i class="fas fa-search"></i></a> </li>
+                <li><a id="nav_icon" href="films.html"><i class="fas fa-film"></i></a> </li>
+            </ul>
+        </div>
+    </div>
+
+    <!---navbar start-->
+
+    <!--Togelling navbar start-->
+
+    <div id="menu" class="slidemenu">
+        <a href="#" class="closebtn" onclick="closee()">&times;</a>
+        <a href="index.html">
+      Home 
+    </a>
+        <a href="#aboutus">
+      About
+    </a>
+        <a href="login.html">
+      login
+    </a>
+        <a href="signup.html">signup</a>
+        <a id="nav_icon" class="search_icon" href="search.html"><i class="fas fa-search"></i></a>
+        <a id="nav_icon" class="film" href="films.html"><i class="fas fa-film"></i></a>
+    </div>
+
+    <!--Togelling navbar end-->
+
+    <!--Slider start-->
+
+    <div id="navmain" class="slideshow-container">
+        <div class="mySlides">
+            <div data-aos="fade-right">
+                <p>
+                    <span class="welcome" id="header_slider">WElCOME TO  OURSITE <label id="headbc">BOOKING CLUB </label>  </span></p> <br>
+                <p id="firstc" style="padding-top: 40px;font-family:'Times New Roman', Times, serif;line-height: 40px;"> To enjoy movies in your Family, Friends, and Relatives. The Booking Club movies tickets books is very easy way Make Offers and Coupons and Gifts start Your Books Now.
+                </p>
+            </div>
+            <img src="booking_club.jpg" alt="">
+            <div class="book_now_btn">
+                <a href="films.html"> <button>Book now</button></a>
+            </div>
+
+        </div>
+        <div class="mySlides">
+            <div data-aos="fade-right">
+                <p> <span id="header_slider">COMEDY MOVIES</span> </p><br>
+                <p style="padding-top: 40px;font-family:'Times New Roman', Times, serif"> To enjoy and Full entertainement <br> Funny comes in many forms. Romantic comedies, action comedies, black comedies -- we have got all the best movies that will tickle your funny bone.
+                </p>
+            </div>
+            <img src="booking_club.jpg" alt="">
+            <div class="book_now_btn">
+                <a href="films.html"> <button>Book now</button></a>
+            </div>
+
+
+        </div>
+        <div class="mySlides">
+            <div data-aos="fade-right">
+                <p><span id="header_slider">FANTASY MOVIES </span></p><br>
+                <p style="padding-top: 20px;font-family:'Times New Roman', Times, serif"> films are often in the context of the imagination, dreams of a character or within the projected vision of the storyteller. Fantasy films often have an element of magic,wonder the extraordinary.</p>
+
+            </div>
+            <img src="booking_club.jpg" alt="">
+            <div class="book_now_btn">
+                <a href="films.html"> <button>Book now</button></a>
+            </div>
+
+
+
+        </div>
+        <div class="mySlides">
+            <div data-aos="fade-right">
+                <p><span id="header_slider">HORROR MOVIES</span></p><br>
+                <p style="padding-top: 30px;font-family:'Times New Roman', Times, serif">Horror films may incorporate incidents of physical violence and psychological terror; they may be studies of disturbed, psychotic, or evil characters; stories of terrifying monsters or mystery thrillers that use atmosphere to suspense.</p>
+
+            </div>
+
+            <img src="booking_club.jpg" alt="">
+            <div class="book_now_btn">
+                <a href="films.html"> <button>Book now</button></a>
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+    <!---Dot symbol in slider-->
+
+    <div id="dotslider" style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+
+    <!--Slider end-->
+    <!---Arrow start-->
+    <div class="arrow">
+        <a href="#navmain"> <i id="arrow_up" class="fas fa-arrow-up"></i></a>
+    </div>
+    <!---Arrow End-->
+
+    <!--popular movies  start-->
+
+    <!--popular movies label-->
+    <div class="popu">
+        <h5>Popular Movies</h5>
+    </div>
+    <!---Popular movies-->
+    <div class="popular_movies">
+        <div class="movies">
+            <a href="veerame.html" class="veera">
+                <img src="veerame.jpg" alt="">
+                <h5>Veerame vaagai soodum</h5>
+                <p> <i class="far fa-clock"></i> 2 hr 40 min</p>
+                <span id="heart"><i class="fas fa-heart"></i></span>
+            </a>
+        </div>
+        <div class="movies">
+            <a class="spider">
+                <img src="spider.jpg" alt="">
+                <h5>Spidermen no way to home</h5>
+                <p> <i class="far fa-clock"></i> 1 hr 40 min</p>
+                <span id="heart"><i class="fas fa-heart"></i></span>
+            </a>
+        </div>
+        <div class="movies">
+            <a class="sila">
+                <img src="sila.jpg" alt="">
+                <h5>Sila Nerangalil Sila Manithargal</h5>
+                <span id="sila_para"> <i class="far fa-clock"></i> 2 hr 20 min</span>
+                <span id="heart_sila"><i class="fas fa-heart"></i></span>
+            </a>
+        </div>
+        <div class="movies">
+            <a class="soorai">
+                <img src="soorari.jpg" alt="">
+                <h5>Soorarai Pottru</h5>
+                <p> <i class="far fa-clock"></i> 2 hr 50 min</p>
+                <span id="heart"><i class="fas fa-heart"></i></span>
+            </a>
+        </div>
+        <div class="movies">
+            <a class="fir">
+                <img src="fir.jpg" alt="">
+                <h5>FIR</h5>
+                <p id="fir_para"> <i class="far fa-clock"></i> 2 hr 15 min</p>
+                <span id="heart_fir"><i class="fas fa-heart"></i></span>
+            </a>
+        </div>
+    </div>
+
+    <!--popular movies  end-->
+
+    <!--Upcoming movies  start-->
+
+    <div class="up">
+        <h5>Upcoming Movies</h5>
+    </div>
+    <div class="upcoming_movies">
+        <div class="movie">
+            <a class="Don">
+                <img src="don.jpg" alt="">
+                <h5>Don</h5>
+                <p> <i class="far fa-clock"></i> 2 hr 40 min</p>
+                <span id="heart_up"><i class="fas fa-heart"></i></span>
+            </a>
+        </div>
+        <div class="movie">
+            <a class="valimai">
+                <img src="valimai.jpg" alt="">
+                <h5>Valimai</h5>
+                <p> <i class="far fa-clock"></i> 2 hr 40 min</p>
+                <span id="heart_up"><i class="fas fa-heart"></i></span>
+            </a>
+        </div>
+        <div class="movie">
+            <a class="et">
+                <img src="et.jpg" alt="">
+                <h5>Etharkkum Thunindhavan</h5>
+                <p> <i class="far fa-clock"></i> 2 hr 40 min</p>
+                <span id="heart_up"><i class="fas fa-heart"></i></span>
+            </a>
+        </div>
+        <div class="movie">
+            <a class="rrr">
+                <img src="rrr.jpg" alt="">
+                <h5>RRR</h5>
+                <p> <i id="clock" class="far fa-clock"></i> 2 hr 40 min</p>
+                <span id="heart_up"><i class="fas fa-heart"></i></span>
+            </a>
+        </div>
+
+    </div>
+    <!--Upcoming movies  end-->
+
+    <!--About Us start-->
+
+    <div id="aboutus" class="about">
+        <div class="about_content">
+
+            <h3>About Us</h3>
+            <p><span>The Booking Club is a buy movie tickets.you buy tickets and make offers and Login now. For now madurai location available ticket now.Few months,later Tamilnadu all district available ticket and support and share .</span> <br> <br> <br>                <i class="fas fa-phone-square-alt"></i> Call-9384799870 <br><br><i class="far fa-envelope"></i> Email-vasan18092001@gmail.com <br> <br>
+                <i class="fas fa-map-marker-alt"></i> Madurai-Tamilnadu-India.
+            </p>
+        </div>
+        <div class="bg">
+            <img src="booking_club.jpg" alt="">
+        </div>
+    </div>
+
+    <!---About Us End-->
+
+    <!---Footer Start-->
+
+    <div class="footer">
+        <div class="log">
+            <img src="nav_logo-removebg-preview.png" alt="">
+        </div>
+        <div class="bc">
+            <label>Booking Club</label>
+        </div>
+        <div class="icons">
+            <a href="https://www.facebook.com/people/Srinivasan/100037177115405/" target="_blank">
+                <i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/Sriniva83350491?s=08" target="_blank">
+                <i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/trsrinivasan18/?r=nametag" target="_blank">
+                <i class="fab fa-instagram"></i></a>
+            <a href="https://api.whatsapp.com/qr/HBX7HBVGVIH5D1" target="_blank">
+                <i class="fab fa-whatsapp"></i></a>
+        </div>
+    </div>
+
+    <!---Footer end-->
+
+    <hr>
+
+    <!---Copryright-->
+
+    <div class="last_footer">
+        <h6>Copyright <span style="color:white">&#9400;</span>2022.All Rights Reserved By <span style="color:white">Srinivasan</span> </h6>
+
+    </div>
+
+    <script>
+        AOS.init();
+    </script>
+    <script src="index.js"></script>s
+
+
+
+</body>
+
+</html>
