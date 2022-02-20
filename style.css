@@ -615,9 +615,6 @@
         }
         
         @media screen and (max-width:1000px) {
-            .preload #load_content {
-                margin-top: 200px;
-            }
             .nav_label {
                 padding-right: 4px;
             }
@@ -993,9 +990,6 @@
         }
         
         @media screen and (max-width:400px) {
-            .preload #load_content {
-                margin-top: 50px;
-            }
             .slidemenu {
                 top: 75px;
             }
@@ -1148,9 +1142,7 @@
         }
         
         @media screen and (max-width:360px) {
-            .preload #load_content {
-                margin-top: 50px;
-            }
+           
             .slidemenu {
                 top: 75px;
             }
